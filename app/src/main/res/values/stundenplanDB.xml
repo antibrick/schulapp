@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dbversion">1</string>
+    <string name="dbname">stundenplandb</string>
+    <string-array name="dbcreate">
+        <!-- Montag -->
+      <item>
+        create table montag(
+          id integer primary key autoincrement,
+          subject varchar(20) not null,
+          homework varchar(100)
+        )
+      </item>
+      <item>
+        insert into montag(subject) values (\'Ü\')
+      </item>
+      <item>
+        insert into montag(subject) values (\'Ü\')
+      </item>
+      <item>
+        insert into montag(subject) values (\'D\')
+      </item>
+      <item>
+        insert into montag(subject) values (\'D\')
+      </item>
+      <item>
+        insert into montag(subject) values (\'M\')
+      </item>
+      <item>
+        insert into montag(subject) values (\'B\')
+      </item>
+        <!-- Dienstag -->
+      <item>
+        create table dienstag(
+          id integer primary key autoincrement,
+          subject varchar(20) not null,
+          homework varchar(100)
+        )
+      </item>
+      <item>
+        insert into dienstag(subject) values (\'M\')
+      </item>
+      <item>
+        insert into dienstag(subject) values (\'E\')
+      </item>
+      <item>
+        insert into dienstag(subject) values (\'C\')
+      </item>
+      <item>
+        insert into dienstag(subject) values (\'Et\')
+      </item>
+      <item>
+        insert into dienstag(subject) values (\'B\')
+      </item>
+      <item>
+        insert into dienstag(subject) values (\'gap\')
+      </item>
+      <item>
+        insert into dienstag(subject) values (\'Inf-2\')
+      </item>
+       <item>
+        insert into dienstag(subject) values (\'G/WR\')
+      </item>
+      <item>
+        insert into dienstag(subject) values (\'G/WR\')
+      </item>
+        <!-- Mittwoch -->
+      <item>
+        create table mittwoch(
+          id integer primary key autoincrement,
+          subject varchar(20) not null,
+          homework varchar(100)
+        )
+      </item>
+      <item>
+        insert into mittwoch(subject) values (\'Ph\')
+      </item>
+      <item>
+        insert into mittwoch(subject) values (\'Inf\')
+      </item>
+      <item>
+        insert into mittwoch(subject) values (\'G\')
+      </item>
+      <item>
+        insert into mittwoch(subject) values (\'M\')
+      </item>
+      <item>
+        insert into mittwoch(subject) values (\'F\')
+      </item>
+      <item>
+        insert into mittwoch(subject) values (\'D\')
+      </item>
+      <item>
+        insert into mittwoch(subject) values (\'gap\')
+      </item>
+      <item>
+        insert into mittwoch(subject) values (\'gap\')
+      </item>
+      <item>
+        insert into mittwoch(subject) values (\'gap\')
+      </item>
+        <!-- Donnerstag -->
+      <item>
+        create table donnerstag(
+          id integer primary key autoincrement,
+          subject varchar(20) not null,
+          homework varchar(100)
+        )
+      </item>
+      <item>
+        insert into donnerstag(subject) values (\'WR\')
+      </item>
+      <item>
+        insert into donnerstag(subject) values (\'Et\')
+      </item>
+      <item>
+        insert into donnerstag(subject) values (\'S\')
+      </item>
+      <item>
+        insert into donnerstag(subject) values (\'S\')
+      </item>
+      <item>
+        insert into donnerstag(subject) values (\'E\')
+      </item>
+      <item>
+        insert into donnerstag(subject) values (\'C\')
+      </item>
+      <item>
+        insert into donnerstag(subject) values (\'gap\')
+      </item>
+      <item>
+        insert into donnerstag(subject) values (\'Ku/Ph\')
+      </item>
+      <item>
+        insert into donnerstag(subject) values (\'Ku/Ph\')
+      </item>
+        <!-- Freitag -->
+      <item>
+        create table freitag(
+          id integer primary key autoincrement,
+          subject varchar(20) not null,
+          homework varchar(100)
+        )
+      </item>
+      <item>
+        insert into freitag(subject) values (\'F\')
+      </item>
+      <item>
+        insert into freitag(subject) values (\'F\')
+      </item>
+      <item>
+        insert into freitag(subject) values (\'M\')
+      </item>
+      <item>
+        insert into freitag(subject) values (\'Mu\')
+      </item>
+      <item>
+        insert into freitag(subject) values (\'E\')
+      </item>
+      <item>
+        insert into freitag(subject) values (\'D\')
+      </item>
+      <item>
+        insert into freitag(subject) values (\'gap\')
+      </item>
+      <item>
+        insert into freitag(subject) values (\'gap\')
+      </item>
+      <item>
+        insert into freitag(subject) values (\'gap\')
+      </item>
+    </string-array>
+</resources>
